@@ -26,8 +26,9 @@ div {
   margin-right: auto;
   margin-top: 5rem;
 
-  border-radius: 90px;
-  box-shadow: 0 38px 70px rgba(0,0,0,.13);
+  /*border-radius: 90px;*/
+  border-radius: 110px;
+  box-shadow: 0 38px 70px rgba(0,0,0,.15);
   background: linear-gradient(
     39deg,
     rgba(255,188,65,1) 0%,
@@ -136,7 +137,9 @@ div {
   margin-left: -190px;
   margin-top: -190px;
   border: 35px solid #fff;
-  border-radius: 80px;
+  border-radius: 120px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1), inset 0 6px 10px rgba(0,0,0,.1);
+
 }
 
 .c2 {
@@ -149,6 +152,7 @@ div {
   margin-top: -99px;
   border: 35px solid #fff;
   border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1), inset 0 6px 10px rgba(0,0,0,.1);
 }
 
 .c3 {
@@ -159,4 +163,5 @@ div {
   height: 46px;
   background-color: #fff;
   border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
 }
