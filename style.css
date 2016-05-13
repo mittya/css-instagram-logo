@@ -1,0 +1,162 @@
+/*
+ * Overview: The new instagram logo
+ * Author: mittya
+ * Code: https://github.com/mittya/css-instagram-logo
+ */
+
+body {
+  background-color: #fff;
+  background-image:
+    linear-gradient(45deg, #d6d6d6 25%, transparent 25%, transparent 75%, #d6d6d6 75%, #d6d6d6),
+    linear-gradient(45deg, #d6d6d6 25%, transparent 25%, transparent 75%, #d6d6d6 75%, #d6d6d6);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.logo {
+  position: relative;
+  width: 512px;
+  height: 512px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+
+  border-radius: 90px;
+  box-shadow: 0 38px 70px rgba(0,0,0,.13);
+  background: linear-gradient(
+    39deg,
+    rgba(255,188,65,1) 0%,
+    rgba(255,174,68,1) 2%,
+    rgba(255,146,73,1) 6%,
+    rgba(255,137,74,1) 7%,
+    rgba(255,127,76,1) 8%,
+    rgba(255,98,80,1) 10%,
+    rgba(255,88,82,1) 11%,
+    rgba(255,50,82,1) 20%,
+    rgba(255,30,82,1) 30%,
+    rgba(255,21,92,1) 42%,
+    rgba(255,21,93,1) 43%,
+    rgba(255,10,93,1) 46%,
+    rgba(255,7,94,1) 47%,
+    rgba(255,7,94,1) 48%,
+    rgba(255,2,94,1) 49%,
+    rgba(255,0,94,1) 49%,
+    rgba(252,0,101,1) 63%,
+    rgba(242,0,107,1) 69%,
+    rgba(219,0,128,1) 81%,
+    rgba(200,0,143,1) 89%,
+    rgba(184,0,158,1) 93%,
+    rgba(179,9,160,1) 93%,
+    rgba(167,19,172,1) 96%,
+    rgba(167,22,173,1) 96%,
+    rgba(165,20,173,1) 97%,
+    rgba(162,24,178,1) 98%,
+    rgba(155,26,183,1) 100%
+  );
+  /*background: linear-gradient(39deg, #fcc561 0%, #e77666 18%, #e02374 63%, #bd2599 89%, #9838bd 100%);*/
+}
+
+.g1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 512px;
+  height: 512px;
+  border-radius: 90px;
+
+  background: linear-gradient(
+    158deg,
+    rgba(14, 75, 247,1) 0%,
+    rgba(118,91,195,.9) 18%,
+    rgba(190, 76, 230,.7) 30%,
+    rgba(212, 59, 202,.56) 35%,
+    rgba(218,45,125,0) 82%
+  );
+}
+
+.g2 {
+  position: absolute;
+  left: -200px;
+  bottom: -220px;
+  width: 800px;
+  height: 550px;
+  border-radius: 800px / 550px;
+
+  background: radial-gradient(
+    ellipse closest-side,
+    rgba(251,77,49,1) 0%,
+    rgba(241,75,49,.5) 45%,
+    rgba(239,71,44,.15) 75%,
+    rgba(239,71,44,0) 100%
+  );
+}
+
+.g3 {
+  position: absolute;
+  left: -170px;
+  bottom: -80px;
+  width: 600px;
+  height: 200px;
+
+  background: radial-gradient(
+    ellipse closest-side,
+    rgba(247,185,108,1) 0%,
+    rgba(247,185,108,.5) 40%,
+    rgba(247,185,108,.3) 60%,
+    rgba(254,209,115,0) 100%
+  );
+}
+
+.g4 {
+  position: absolute;
+  left: 0;
+  bottom: -90px;
+  width: 380px;
+  height: 200px;
+
+  background: radial-gradient(
+    ellipse closest-side,
+    rgba(247,236,108,.7) 0%,
+    rgba(247,236,108,.2) 60%,
+    rgba(254,236,115,0) 100%
+  );
+}
+
+.c1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 380px;
+  height: 380px;
+  margin-left: -190px;
+  margin-top: -190px;
+  border: 35px solid #fff;
+  border-radius: 80px;
+}
+
+.c2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 198px;
+  height: 198px;
+  margin-left: -99px;
+  margin-top: -99px;
+  border: 35px solid #fff;
+  border-radius: 50%;
+}
+
+.c3 {
+  position: absolute;
+  left: 330px;
+  top: 130px;
+  width: 46px;
+  height: 46px;
+  background-color: #fff;
+  border-radius: 50%;
+}
