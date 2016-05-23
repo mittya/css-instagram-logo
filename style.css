@@ -17,7 +17,7 @@ div {
   box-sizing: border-box;
 }
 
-.logo {
+.instagram {
   position: relative;
   width: 512px;
   height: 512px;
@@ -25,44 +25,20 @@ div {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
-
-  /*border-radius: 90px;*/
   border-radius: 110px;
   box-shadow: 0 38px 70px rgba(0,0,0,.15);
+
   background: linear-gradient(
     39deg,
     rgba(255,188,65,1) 0%,
-    rgba(255,174,68,1) 2%,
-    rgba(255,146,73,1) 6%,
-    rgba(255,137,74,1) 7%,
-    rgba(255,127,76,1) 8%,
-    rgba(255,98,80,1) 10%,
-    rgba(255,88,82,1) 11%,
-    rgba(255,50,82,1) 20%,
-    rgba(255,30,82,1) 30%,
-    rgba(255,21,92,1) 42%,
-    rgba(255,21,93,1) 43%,
-    rgba(255,10,93,1) 46%,
-    rgba(255,7,94,1) 47%,
-    rgba(255,7,94,1) 48%,
-    rgba(255,2,94,1) 49%,
-    rgba(255,0,94,1) 49%,
-    rgba(252,0,101,1) 63%,
-    rgba(242,0,107,1) 69%,
-    rgba(219,0,128,1) 81%,
-    rgba(200,0,143,1) 89%,
-    rgba(184,0,158,1) 93%,
-    rgba(179,9,160,1) 93%,
-    rgba(167,19,172,1) 96%,
-    rgba(167,22,173,1) 96%,
-    rgba(165,20,173,1) 97%,
-    rgba(162,24,178,1) 98%,
+    rgba(193,41,166,1) 18%,
+    rgba(221,40,125,1) 63%,
+    rgba(147,28,156,1) 89%,
     rgba(155,26,183,1) 100%
   );
-  /*background: linear-gradient(39deg, #fcc561 0%, #e77666 18%, #e02374 63%, #bd2599 89%, #9838bd 100%);*/
 }
 
-.g1 {
+.purple {
   position: absolute;
   left: 0;
   top: 0;
@@ -72,17 +48,17 @@ div {
 
   background: linear-gradient(
     158deg,
-    rgba(14, 75, 247,1) 0%,
-    rgba(118,91,195,.9) 18%,
-    rgba(190, 76, 230,.7) 30%,
+    rgba(61, 79, 208,1) 0%,
+    rgba(118,91,195,.8) 18%,
+    rgba(190, 76, 230,.5) 30%,
     rgba(212, 59, 202,.56) 35%,
     rgba(218,45,125,0) 82%
   );
 }
 
-.g2 {
+.red {
   position: absolute;
-  left: -200px;
+  left: -230px;
   bottom: -220px;
   width: 800px;
   height: 550px;
@@ -97,38 +73,38 @@ div {
   );
 }
 
-.g3 {
+.orange {
   position: absolute;
   left: -170px;
-  bottom: -80px;
-  width: 600px;
-  height: 200px;
+  bottom: -110px;
+  width: 650px;
+  height: 450px;
 
   background: radial-gradient(
     ellipse closest-side,
-    rgba(247,185,108,1) 0%,
-    rgba(247,185,108,.5) 40%,
-    rgba(247,185,108,.3) 60%,
-    rgba(254,209,115,0) 100%
+    rgb(220, 135, 30) 0%,
+    rgba(247, 159, 51, 0.5) 40%,
+    rgba(247, 170, 76, 0.3) 60%,
+    rgba(255, 191, 57, 0) 100%
   );
 }
 
-.g4 {
+.yellow {
   position: absolute;
-  left: 0;
-  bottom: -90px;
-  width: 380px;
-  height: 200px;
+  left: -70px;
+  bottom: -195px;
+  width: 470px;
+  height: 350px;
 
   background: radial-gradient(
     ellipse closest-side,
-    rgba(247,236,108,.7) 0%,
-    rgba(247,236,108,.2) 60%,
+    rgba(247,236,108,1) 0%,
+    rgba(247,236,108,.4) 60%,
     rgba(254,236,115,0) 100%
   );
 }
 
-.c1 {
+.border {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -139,10 +115,9 @@ div {
   border: 35px solid #fff;
   border-radius: 120px;
   box-shadow: 0 3px 10px rgba(0,0,0,.1), inset 0 6px 10px rgba(0,0,0,.1);
-
 }
 
-.c2 {
+.cirlce {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -155,7 +130,7 @@ div {
   box-shadow: 0 3px 10px rgba(0,0,0,.1), inset 0 6px 10px rgba(0,0,0,.1);
 }
 
-.c3 {
+.dot {
   position: absolute;
   left: 330px;
   top: 130px;
